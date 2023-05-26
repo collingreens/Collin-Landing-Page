@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Anton', sans-serif;
+    
+  }
+
+  hr{
+    width:50%;
+    
+  }
+
+  p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    color: #1B0902;
+  
+  }
+
+
+
+  .choco{
+    color: #1B0902;
+  }
+
+  .navbar-nav > li{
+    padding-left:10px;
+    padding-right:10px;
+  }
+
+  header{
+    
+    grid-area:header;
+    background-color:#1B0902;
+  }
+  
+  .nav-link:hover {
+    background-color: black;
+  }
+
+  main{
+    grid-area:main;
+    background-image: url(/images/coffeecup.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .background{
+    color: #1B0902;
+  }
+    
+  .intro{
+    color:white;
+    opacity:90%;
+    border-radius: 20px;
+    padding: 10px;
+    align:center; 
+  }
+
+  aside{
+    grid-area:aside;
+    border-radius: 2rem;
+    
+  }
+  
+  footer{
+    grid-area: footer;
+    background-color: #1B0902;
+  }
+  
+
+  .layout{
+    display: grid;
+    grid-template-areas:
+      "header header header header "
+      "main main main main "
+      "footer footer footer footer "
+  }
+
+/* Animations + media quarries */
+
+
+  @keyframes fade-in-text{
+    0%{ opacity: 0;}
+    100%{ opacity: 1;}
+  }
+
+  .fade-in-text {
+    animation: fade-in-text 3s;
+  }
+
+
+  p.text{
+
+}
+
+  @media screen and (max-width: 699px) {
+
+  p.text {
+  
+  font-size: 17px;
+  text-align: center;
+  }
+  
+  }
+
+  h5.adjust{
+
+  }
+
+  @media screen and (max-width: 699px) {
+
+    h5.adjust {
+    
+    font-size: 20px;
+    
+    }
+    
+    }
