@@ -44,5 +44,4 @@ button.addEventListener("click", function() {
   }
 });
 
-// Image Slider
   
