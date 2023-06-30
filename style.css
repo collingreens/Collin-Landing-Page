@@ -38,9 +38,13 @@
     background-color: black;
   }
 
+  .quotebox{
+    background-color: #1B0902;
+  }
+
   main{
     grid-area:main;
-    background-image: url(/images/coffeecup.avif);
+    background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -50,7 +54,7 @@
   }
     
   .intro{
-    color:white;
+    color: aliceblue;
     opacity:90%;
     border-radius: 20px;
     padding: 10px;
@@ -63,6 +67,10 @@
     
   }
   
+  .mt-n4{
+    margin-top: -5rem;
+  }
+
   footer{
     grid-area: footer;
     background-color: #1B0902;
@@ -98,7 +106,7 @@
 
   p.text {
   
-  font-size: 17px;
+  font-size: 22px;
   text-align: center;
   }
   
@@ -117,3 +125,37 @@
     }
     
     }
+
+    /* Random Quotes */
+
+
+
+#quote-output {
+  font-size: 1.7rem;
+  font-style: italic;
+  color: aliceblue;
+}
+
+
+#author-output {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: aliceblue;
+}
+
+.swiper{
+  width: 25%;
+  height: 70%;
+}
+
+.swiper-slide img{
+  width: 100%;
+}
+
+.swiper-button-prev {
+
+}
+
+.swiper-button-next{
+
+}
